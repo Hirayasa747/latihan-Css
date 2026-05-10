@@ -1,0 +1,87 @@
+#gambar1{
+width: 250px;
+border-radius: 15px;
+}
+
+#gambar2{
+width: 250px;
+height: 100px;
+object-fit: cover;
+object-position: center;
+}
+
+#gambar3{
+width: 250px;
+height: 250px;
+border-radius: 50%;
+object-fit: cover;
+object-position: center;
+}
+
+
+#Search{
+  width: 200px;
+  height: 45px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 0px 15px;
+}
+
+
+#Search2{
+  width: 400px;
+  height: 45px;
+  border: 1px solid gray;
+  border-radius: 25px;
+  padding: 5px 15px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+#Kotak{
+  width: 400px;
+  height: 27px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 0px 5px;
+}
+
+
+#button{
+  width: 300px;
+  height: 50px;
+  background-color: #0073b1;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.kotak2 img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+
+.kotak2 input{
+  flex: 1;
+  border: none;
+  outline: none;
+}
+
+.kotak2  button {
+  background: #1d9bf0;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
