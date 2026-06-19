@@ -1,3 +1,97 @@
 .kotak {
   margin-bottom: 5px;
 }
+
+.lesson-title {
+  margin-bottom: 0px;
+}
+
+.survey-text {
+  width: 200px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: px;
+}
+
+#Google {
+  display: block;
+  width: 20%;
+   margin: 0 auto 0px auto;
+}
+
+
+#Search {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+  border-radius: 30px;
+  border: none;
+  padding: 14px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.first{
+  padding: 8px;
+  font-size: 15px;
+  height: 30px;
+  border-radius: 5px;
+  border : 1px solid #ccc;
+}
+
+.Email{
+  padding: 10px;
+  font-size: 15px;
+  margin: 10px 0;
+  width: 382px;
+  height: 40px;
+  border-radius: 5px;
+  border : 1px solid #ccc;
+}
+
+.Sign-up{ width: 405px;
+  padding: 17px;
+  background-color:rgb(71, 126, 228);
+  border: none;
+  border-radius: 5px;
+  color:white;
+  font-weight: bold;
+}
+
+.location{ padding: 5px;
+  font-size: 15px;
+  margin: 10px 0;
+  width: 402px;
+  height: 35px;
+  background-color: lightgray;
+  border: none;
+}
+
+.destination{
+  padding: 5px;
+  font-size: 15px;
+  width: 402px;
+  height: 35px;
+  background-color: lightgray;
+  border: none;
+  background-color: lightgray;
+}
+
+.Request{
+  background-color: black;
+  color: white;
+  box-shadow: none;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.Later{
+  background-color: lightgray;
+  color: black;
+  box-shadow: none;
+  margin-top: 10px;
+  padding: 12px;
+  border: none;
+}
+
+
