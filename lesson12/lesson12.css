@@ -56,6 +56,36 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 .flex-12d div {background:lightpink;}
 
+.header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    background:#7d59c8;
+    padding:12px 18px;
+}
+
+.header div{
+    color:white;
+    font-weight:bold;
+}
+
+.header input{
+    flex:1;
+    margin:0 40px;
+
+    border:none;
+    border-radius:20px;
+    padding:8px 15px;
+}
+
+.header button{
+    background:transparent;
+    color:white;
+    border:1px solid white;
+    padding:8px 15px;
+}
+
 
 .menu{
     width:300px;
@@ -140,32 +170,4 @@ body {font-family: Arial, Helvetica, sans-serif;}
   margin-left: 100px;
 }
 
-.header{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
 
-    background:#7d59c8;
-    padding:12px 18px;
-}
-
-.header div{
-    color:white;
-    font-weight:bold;
-}
-
-.header input{
-    flex:1;
-    margin:0 40px;
-
-    border:none;
-    border-radius:20px;
-    padding:8px 15px;
-}
-
-.header button{
-    background:transparent;
-    color:white;
-    border:1px solid white;
-    padding:8px 15px;
-}
