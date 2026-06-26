@@ -55,3 +55,117 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 
 .flex-12d div {background:lightpink;}
+
+
+.menu{
+    width:300px;
+    border:1px solid lightgray;
+    border-radius:8px;
+    padding:10px;
+}
+
+.menu-item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:10px 0;
+}
+
+.badge{
+    background:dodgerblue;
+    color:white;
+    padding:5px 12px;
+    border-radius:20px;
+    font-weight:bold;
+}
+
+
+.container {
+  width: 370px;
+  border: 1px solid #ddd;
+  padding: 12px;
+  font-family: Arial;
+}
+
+
+
+.profile-card {
+ display: flex;
+
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  width: 200px;
+}
+
+.picture {
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.info  p{
+  margin: 0;
+}
+
+.name {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.type {
+  color: gray;
+  margin-bottom: 4px;
+}
+
+.status {
+  color: gray;
+  font-size: 14px;
+}
+
+.follow {
+  background-color: #4a9df8;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 100px;
+}
+
+.header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    background:#7d59c8;
+    padding:12px 18px;
+}
+
+.header div{
+    color:white;
+    font-weight:bold;
+}
+
+.header input{
+    flex:1;
+    margin:0 40px;
+
+    border:none;
+    border-radius:20px;
+    padding:8px 15px;
+}
+
+.header button{
+    background:transparent;
+    color:white;
+    border:1px solid white;
+    padding:8px 15px;
+}
