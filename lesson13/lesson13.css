@@ -74,3 +74,61 @@ body {font-family: Arial, Helvetica, sans-serif;}
   background-color: black;
   color: white;
 }
+
+
+.card {width: 420px;
+  padding: 15px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  border-radius: 6px;}
+
+
+.label {margin-bottom: 15px;
+  color: gray;
+  font-size: 14px;
+}
+
+
+.email-info {
+  flex: 1;
+}
+
+
+.email-row {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.avatar {
+   width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 12px;
+}
+
+.sender {font-size: 18px;
+  font-weight: bold;
+}
+
+.time {
+  font-size: 14px;
+  color: rgb(120, 120, 120);
+}
+
+.subject {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 4px;
+}
+
+.preview {
+  font-size: 15px;
+  color: rgb(120, 120, 120);
+  margin-top: 4px;
+}
