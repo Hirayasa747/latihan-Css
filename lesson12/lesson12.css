@@ -1,0 +1,57 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+.flex-12a{
+    display: flex;
+}
+
+.blue{
+    width: 200px;
+    background-color: lightblue;
+}
+
+.pink{
+    width: 75px;
+    background-color: lightpink;
+}
+
+.flex-12b{
+    display: flex;
+}
+
+.item1{
+    width:50px;
+    background:lightblue;
+}
+
+.item2{
+    flex:1;
+    background:lightpink;
+}
+
+.item3{
+    width:75px;
+    background:lightblue;
+}
+
+.flex-12c{
+    display:flex;
+    justify-content:space-between;
+}
+
+.flex-12c div {background:lightpink;}
+
+
+.flex-12d{
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    height:65px;
+
+    border:1px solid gray;
+}
+
+.flex-12d div {background:lightpink;}
