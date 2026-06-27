@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson 14e</title>
+<style>
+.header{
+
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  right: 0;
+
+  height: 60px;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding-left: 70px;
+  padding-right: 70px;
+
+  background-color: white;
+}
+
+.left-section{
+
+  display:flex;
+
+  align-items:center;
+}
+
+.profile-picture{
+
+  width:40px;
+  height:40px;
+
+  object-fit:cover;
+
+  border-radius:20px;
+
+  margin-right:10px;
+}
+
+.name{
+
+  font-family:Arial;
+
+  font-weight:bold;
+}
+
+.right-section{
+
+  display:flex;
+
+  align-items:center;
+}
+
+.add-button{
+
+  background-color: rgb(24,119,242);
+
+  color:white;
+
+  border:none;
+
+ cursor: pointer;
+ transition: opacity 0.15s;
+  
+ padding:8px 12px;
+
+  border-radius:6px;
+
+  font-weight:bold;
+
+  margin-right:10px;
+}
+
+.add-button:hover {
+  opacity: 0.8;
+}
+
+
+.message-button{
+
+  background-color: rgb(230,230,230);
+
+  border:none;
+
+  cursor: pointer;
+  transition: background-color 0.15s;
+  
+  padding:8px 12px;
+
+  border-radius:6px;
+
+  font-weight:bold;
+}
+
+.message-button:hover {
+  background-color: rgb(210, 210, 210);
+}
+
+</style>
+</head>
+<body>
+    <div class="header">
+
+  <div class="left-section">
+
+    <img class="profile-picture"
+      src="tes.jpg">
+
+    <div class="name">
+      Mai minakami
+    </div>
+
+  </div>
+
+  <div class="right-section">
+
+    <button class="add-button">
+      Add Friend
+    </button>
+
+    <button class="message-button">
+      Message
+    </button>
+
+  </div>
+
+</div>
+</body>
+</html>
