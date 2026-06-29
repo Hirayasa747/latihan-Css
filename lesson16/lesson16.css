@@ -20,7 +20,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 .video-title {
   margin-top: 0;
   margin-bottom: 10px;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 20px;
 }
@@ -92,4 +92,61 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
   padding: 4px;
   border-radius: 2px;
+}
+
+
+.profile-tooltip-container{
+    position: relative;
+    display: inline-block;
+}
+
+
+.profile-tooltip{
+    position:absolute;
+
+    top:55px;
+    left:0;
+
+    background:white;
+
+    padding:12px;
+
+    border-radius:8px;
+
+    box-shadow:0 0 10px rgba(0,0,0,.25);
+
+    display:flex;
+    align-items:center;
+
+    opacity:0;
+
+    transition:opacity .15s;
+
+    pointer-events:none;
+}
+
+.profile-tooltip-container:hover .profile-tooltip{
+    opacity:1;
+}
+
+
+.tooltip-picture{
+    width:50px;
+    height:50px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    margin-right:10px;
+}
+
+.tooltip-name{
+    font-weight:bold;
+    margin-bottom:4px;
+}
+
+.tooltip-subs{
+    color:gray;
+    font-size:14px;
 }
